@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            font-size: large;
+            border: "1px solid red";
+        }
+
+        .table {
+            margin: auto;
+            
+        }
+        .form{
+            margin-left: "30%";
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <h1>form structure</h1>
+        <form action="submit.js">
+            <table style="border: 1px solid red">
+                <tr>
+                    <td><label for="first-name">First Name</label></td>
+                    <td>
+                        <input type="text" name="my-name" id="first-name" placeholder="enter your first name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="first-name"> Last Name </label></td>
+                    <td>
+                        <input type="text" name="my-name" id="last-name" placeholder="enter your last name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mob-num"> mobile number</label></td>
+                    <td>
+                        <input type="number" name="my-num" id="mob-num" placeholder="enter your mubile num" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="my-email"> email</label></td>
+                    <td>
+                        <input type="email" name="my-name" id="my-email" placeholder="enter your email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="my-pass"> passward</label></td>
+                    <td>
+                        <input type="password" name="my-pass" id="my-pass" placeholder="enter your passward" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="my-date"> date</label></td>
+                    <td><input type="date" name="date" id="my-date" /></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender</label></td>
+                    <td>male <input type="radio" name="my-gender" id="Gender" /></td>
+                    <td>female <input type="radio" name="my-gender" id="Gender" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
